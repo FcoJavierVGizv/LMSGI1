@@ -23,3 +23,8 @@ En este repositorio vamos a almacenar todos los ejercicios del módulo
 A continuación se muestra un [link a una página de ejemplo](https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/tutorial-de-markdown/).
 
 A continuación se muestra una imagen del Zaidin Vergeles:![Esta es una imagen de ejemplo](https://www.elindependientedegranada.es/sites/default/files/styles/large/public/ciudadania/ieszaidinvergeles.jpg?itok=Ho8UH8Br)
+
+|Nombre|Apellidos|
+|--------|--------|
+|    Fran    |    Vicaria    |
+|    Antonio    |    Barco    |
