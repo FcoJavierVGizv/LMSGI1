@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <h1>COMPRA AUTOMÓVILES</h1>
+        <br><br>
+        <h2>Rellene los siguientes campos para realizar su pedido.</h2>
+        <br>
+        <h3>Datos personales</h3>
+
+        <div style="border : 1px solid black">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" value="">
+            <br><br>
+
+            <label for="Apelldidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" value="">
+            <br><br>
+
+            <label for="dirección">Dirección</label>
+            <input type="text" id="dirección" name="dirección" value="">
+            <br><br>
+
+            <label for="cp">Código Postal</label>
+            <input type="number" id="cp" name="cp" value="">
+            <br><br>
+
+            <label for="teléfono">Teléfono</label>
+            <input type="text" id="teléfono" name="teléfono" value="">
+        </div>
+
+        <h3>Elija cómo desea realizar la consulta</h3>
+
+        <div style="border : 1px solid black">
+            <input type="radio" id="online" name="metodo" value="online">
+            <label for="online">Online</label><br>
+
+            <input type="radio" id="presencial" name="metodo" value="presencial">
+            <label for="presencial">Presencial</label><br>
+        </div>
+
+        <h3>¿Cómo desea recibir nuestras últimas novedades en automóviles?</h3>
+        <div style="border : 1px solid black">
+            <input type="checkbox" id="domicilio" name="domicilio" value="domicilio">
+            <label for="domicilio">Domicilio</label><br>
+
+            <input type="checkbox" id="email" name="email" value="email">
+            <label for="email">Email</label><br>
+        </div>
+
+        <h3>¿Qué categoría está buscando?</h3>
+        <div style="border : 1px solid black">
+            <label for="categoria">Seleccione una categoria</label>
+            <select id="categoria" name="categoria">
+                <option value="eco">Económico</option>
+                <option value="gbaja">Gama baja</option>
+                <option value="gmedia">Gama media</option>
+                <option value="galta">Gama alta</option>
+            </select>
+        </div>
+
+        <h3>Indique la fecha de la cita</h3>
+        <textarea name="cita" rows="3" cols="30"></textarea>
+        <br><br>
+        <input type="submit">
+    </form>
+
+</body>
+
+</html>

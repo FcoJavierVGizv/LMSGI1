@@ -1,4 +1,4 @@
-.git add*
-.git commit   -m "ejercicio x"
-.git pull origin
-.git push origin
+git add*
+git commit   -m "ejercicio x"
+git pull origin
+git push origin
